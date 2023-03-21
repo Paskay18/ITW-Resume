@@ -1,55 +1,80 @@
 body{
   font-family: sans-serif;
   font-size:110%;
-  background-color: #FCF7F8;
   display: flex;
-  flex-direction: column
-  }
+  flex-direction: column;
+  
+ }
 
 #mainsection{ 
   display: flex;
   flex-direction:row;
-  overflow: unset;
   background-color: #a999a9;
   font-family: 'Times New Roman', Times, serif;
   text-align: justify;
   }
 
 header {
-  text-align: center;
+  text-align: right;
+  position: sticky
   }
 
-#HeaderTab{
-  background-color: #32213a;
+#HeaderTab{ border: #32213a;
   color: #FCF7F8;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#headerElements{
+  border: solid;
+  border-color: #32213a;
+  background-color: #32213a;
+  position: fixed;
+  padding: 1rem;
+  margin: 0%;
+  ;
+
+}
+
+#AboutME{ 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  
+  
+}
 
 #profileImage{
-  width: 20%;
-  height: 20%;
+  width: 60%;
+  height: 30%;
   border-radius:100% ;
   border-color: #FCF7F8;
   border-style: solid;
   border-width: 0.5rem;
   margin: 2rem;
- 
+  float: left;
+  
 }
-#menu{
-  background-color: #66717e;
-  color: white
-  ;
-  }
+
+
+
+
+
 #content{ 
-  padding: 1rem;
   margin: 1rem;
+  padding-left: 0%;
   font-family: 'Times New Roman', Times, serif;
   text-align: justify;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  
 }
 
 #experience{
-  display: flexs;
+  display: flex;
 }
 a{ 
   color: white;
@@ -57,18 +82,32 @@ a{
   margin: 0rem;
 }
 
-#education, #experience, #skills, #interests{ background-color: white;
-margin: auto;
-padding:1rem;
-background-size: 50%
-;
+#education, #experience, #Interests, #skills { background-color: white;
+margin: 1px;
+padding:0.1rem;
+background-size: 60%;
+background-color: #a999a9;
+border-bottom-style: dashed;
+color: black;
+text-align: center;
+
 
 }
+
+
+
+.Icons{ border-radius: 80%;
+  width: 10%;
+  height: 1rem;
+  padding: 1rem;
+
 }
-  
+
+
 footer {
   background-color: #32213a;
   text-align: center;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 8rem
 }
